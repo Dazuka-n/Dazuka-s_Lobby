@@ -36,6 +36,6 @@ def chatbot():
     chat = Chat(pairs, reflections)
     chat.converse()
 
-
+if __name__ == "__main__":
     nltk.download('punkt')  # Ensure NLTK dependencies are downloaded
     chatbot()
